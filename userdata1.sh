@@ -25,14 +25,14 @@ cat <<EOF > /var/www/html/index.html
       100% { color: blue; }
     }
     h1 {
-      animation: colorChange 2s infinite;
+      animation: colorChange 5s infinite;
     }
   </style>
 </head>
 <body>
-  <h1>Terraform Project Server 1</h1>
+  <h1>Welcome to SKYNET</h1>
   <h2>Instance ID: <span style="color:green">$INSTANCE_ID</span></h2>
-  <p>Welcome to CloudChamp's Channel</p>
+  <p>This is a Sample project 2</p>
   
 </body>
 </html>
